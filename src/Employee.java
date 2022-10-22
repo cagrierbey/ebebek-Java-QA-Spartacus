@@ -68,16 +68,16 @@ public class Employee {
 	void printStatus()
 	{
 		System.out.println("********************************");
-        System.out.println("Adý: " + this.name);
-        System.out.println("Maaþý: " + this.salary);
-        System.out.println("Çalýþma Saati: " + this.workHours);
-        System.out.println("Baþlangýç Yýlý: " + this.hireYear);
-        System.out.println("Vergi: " + this.tax);
-        System.out.println("Bonus: " + this.bonus);
-        System.out.println("Maaþ Artýþý: " + this.raiseSalary);
-        System.out.println("Vergi ve Bonuslar ile birlikte maaþ :" + (this.salary + this.bonus - this.tax));
-        System.out.println("Toplam Maaþ: " + (this.salary + this.bonus + this.raiseSalary - this.tax));
-        System.out.println("********************************");
+        	System.out.println("AdÃ½: " + this.name);
+        	System.out.println("MaaÃ¾Ã½: " + this.salary);
+        	System.out.println("Ã‡alÃ½Ã¾ma Saati: " + this.workHours);
+        	System.out.println("BaÃ¾langÃ½Ã§ YÃ½lÃ½: " + this.hireYear);
+        	System.out.println("Vergi: " + this.tax);
+        	System.out.println("Bonus: " + this.bonus);
+        	System.out.println("MaaÃ¾ ArtÃ½Ã¾Ã½: " + this.raiseSalary);
+        	System.out.println("Vergi ve Bonuslar ile birlikte maaÃ¾ :" + (this.salary + this.bonus - this.tax));
+        	System.out.println("Toplam MaaÃ¾: " + (this.salary + this.bonus + this.raiseSalary - this.tax));
+        	System.out.println("********************************");
 	}
 
 }
