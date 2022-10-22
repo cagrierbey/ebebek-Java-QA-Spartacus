@@ -68,15 +68,15 @@ public class Employee {
 	void printStatus()
 	{
 		System.out.println("********************************");
-        	System.out.println("Adý: " + this.name);
-        	System.out.println("Maaþý: " + this.salary);
-        	System.out.println("Çalýþma Saati: " + this.workHours);
-        	System.out.println("Baþlangýç Yýlý: " + this.hireYear);
+        	System.out.println("Adı: " + this.name);
+        	System.out.println("Maaş: " + this.salary);
+        	System.out.println("Çalışma Saati: " + this.workHours);
+        	System.out.println("Baþlangıç Yılı: " + this.hireYear);
         	System.out.println("Vergi: " + this.tax);
         	System.out.println("Bonus: " + this.bonus);
-        	System.out.println("Maaþ Artýþý: " + this.raiseSalary);
-        	System.out.println("Vergi ve Bonuslar ile birlikte maaþ :" + (this.salary + this.bonus - this.tax));
-        	System.out.println("Toplam Maaþ: " + (this.salary + this.bonus + this.raiseSalary - this.tax));
+        	System.out.println("Maaş Artış: " + this.raiseSalary);
+        	System.out.println("Vergi ve Bonuslar ile birlikte maaş :" + (this.salary + this.bonus - this.tax));
+        	System.out.println("Toplam Maaş: " + (this.salary + this.bonus + this.raiseSalary - this.tax));
         	System.out.println("********************************");
 	}
 
