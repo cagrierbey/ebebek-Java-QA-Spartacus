@@ -71,7 +71,7 @@ public class Employee {
         	System.out.println("Adı: " + this.name);
         	System.out.println("Maaş: " + this.salary);
         	System.out.println("Çalışma Saati: " + this.workHours);
-        	System.out.println("Baþlangıç Yılı: " + this.hireYear);
+        	System.out.println("Başlangıç Yılı: " + this.hireYear);
         	System.out.println("Vergi: " + this.tax);
         	System.out.println("Bonus: " + this.bonus);
         	System.out.println("Maaş Artış: " + this.raiseSalary);
